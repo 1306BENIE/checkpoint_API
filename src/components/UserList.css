@@ -1,0 +1,56 @@
+/* Style pour le titre avec un dégradé et un margin-bottom */
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff7eb3, #ff758c, #ff5858);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 25px;
+}
+
+/* Style des cartes */
+.custom-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background: linear-gradient(135deg, #f9f9f9, #ffffff);
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Style des titres des utilisateurs */
+.user-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff5858;
+  text-transform: uppercase;
+}
+
+/* Style des sous-titres */
+.user-email {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* Style des informations */
+.user-info {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.user-info a {
+  color: #ff758c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.user-info a:hover {
+  text-decoration: underline;
+}
